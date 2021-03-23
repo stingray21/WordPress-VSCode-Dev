@@ -2,6 +2,13 @@
 Setting up VS Code for WordPress Theme and Plugin development
 
 
+| Status: | 2021-03-23|
+| --- | --- |
+| VS Code: | v1.54.3 |
+| PHP: | v8.0.3 |
+| WP: | 5.7 |
+
+
 
 ## Debugging 
 
@@ -25,6 +32,8 @@ WordPress Coding Standards for PHP_CodeSniffer
 **Deprecated**  
 [@WordPress-Coding-Standards/stylelint-config-wordpress
 ](https://github.com/WordPress-Coding-Standards/stylelint-config-wordpress)
+
+
 
 
 
@@ -64,6 +73,9 @@ end_of_line = crlf
 [Source](https://github.com/WordPress/wordpress-develop/blob/master/.editorconfig)
 
 or maybe [Source](https://core.trac.wordpress.org/browser/trunk/.editorconfig)?
+
+
+
 
 
 ## Troubleshooting
