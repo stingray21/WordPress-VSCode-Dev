@@ -12,6 +12,19 @@ Setting up VS Code for WordPress Theme and Plugin development
 
 ## Debugging 
 
+### WP Debugging settings
+
+[WP Codex](https://codex.wordpress.org/WP_DEBUG)
+
+in `wp-config.php`:
+```php
+// Enable debugging
+define( 'WP_DEBUG', true ); 
+// errors saved to a debug.log log file inside the /wp-content/ directory
+define( 'WP_DEBUG_LOG', true ); 
+//controls whether debug messages are shown inside the HTML of pages 
+define( 'WP_DEBUG_DISPLAY', true ); 
+```
 
 ### PHP - xDebug
 
