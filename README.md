@@ -2,11 +2,11 @@
 Setting up VS Code for WordPress Theme and Plugin development
 
 
-| Status: | 2021-03-23|
-| --- | --- |
-| VS Code: | v1.54.3 |
-| PHP: | v8.0.3 |
-| WP: | 5.7 |
+**Status**  
+Date: *March 2021*  
+VS Code: *v1.54.3*  
+PHP: *v8.0.3*  
+WP: *5.7*  
 
 
 
@@ -83,9 +83,7 @@ trim_trailing_whitespace = false
 [{*.txt,wp-config-sample.php}]
 end_of_line = crlf
 ```
-[Source](https://github.com/WordPress/wordpress-develop/blob/master/.editorconfig)
-
-or maybe [Source](https://core.trac.wordpress.org/browser/trunk/.editorconfig)?
+[Source](https://github.com/WordPress/wordpress-develop/blob/master/.editorconfig) (or maybe [here](https://core.trac.wordpress.org/browser/trunk/.editorconfig))
 
 
 ### PHP CodeSniffer
