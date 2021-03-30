@@ -1,0 +1,6 @@
+{
+	"phpSniffer.standard": "WordPress",
+	"[php]": {
+		"editor.defaultFormatter": "wongjn.php-sniffer"
+	}
+}
