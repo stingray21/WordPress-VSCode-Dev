@@ -164,3 +164,14 @@ There are other popular plugins, but either I could not get them to work or they
   [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer&ssr=false#overview) or [Github](https://github.com/junstyle/vscode-php-cs-fixer)  
   Version: 	0.1.158 (2021-01-19)
 
+## Other Tutorials
+
+- [Setting Up PHP CodeSniffer in Visual Studio Code](https://tommcfarlin.com/php-codesniffer-in-visual-studio-code/) by Tom McFarlin (2020)
+
+- [VS Code for WordPress Development](https://tommcfarlin.com/vs-code-wordpress/) by Tom McFarlin (2016)
+
+- [Using PHP CodeSniffer For MAMP and WordPress](https://tommcfarlin.com/php-codesniffer/) by Tom McFarlin (2015)
+
+- [Set Up PHP CodeSniffer for Local Development](https://www.twilio.com/blog/set-up-php-codesniffer-local-development-sublime-text-php-storm-vs-code) by  Michael Okoko (2020-01-10)
+
+- [WordPress PHP CodeSniffer for your favorite editor](https://luminfire.com/2017/03/01/wordpress-php-codesniffer-favorite-editor/) by Marty Kokes, Michael Moore & Nick Ciske (2017-03-01)
