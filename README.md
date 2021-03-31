@@ -214,10 +214,10 @@ There are other popular plugins, but either I could not get them to work or they
   (on [Github](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate))
 
 ### Boilerplate - Themes
+- https://underscores.me/  
+  (on [Github](https://github.com/automattic/_s))
 - https://barebones.dev/get-started/  
-  (on [Github](https://github.com/benchmarkstudios/barebones)
+  (on [Github](https://github.com/benchmarkstudios/barebones))
 - http://tidythemes.com/  
   https://wordpress.org/themes/blankslate/  
-  (on [Github](https://github.com/tidythemes/blankslate)
-- https://underscores.me/  
-  (on [Github](https://github.com/automattic/_s)
+  (on [Github](https://github.com/tidythemes/blankslate))
