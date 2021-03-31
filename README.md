@@ -29,6 +29,14 @@ define( 'WP_DEBUG_DISPLAY', true );
 ### PHP - xDebug
 
 
+#### VS Code Plugins
+
+- **PHP Debug** by *Felix Becker*  
+  [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug) or  [Github](https://github.com/xdebug/vscode-php-debug)  
+  Version: 1.14.12 (2021-03-27)
+  
+
+
 ### JS
 
 
