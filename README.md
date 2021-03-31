@@ -172,8 +172,10 @@ There are other popular plugins, but either I could not get them to work or they
 - **phpcs** by *Ioannis Kappas*  
   [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs&ssr=false#review-details) or   [Github](https://github.com/ikappas/vscode-phpcs)  
   Version: 1.0.5 (2018-03-01)
-- 
+- **PHP Sniffer & Beautifier** by *Samuel Hilson*
+  [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=ValeryanM.vscode-phpsab)
   [Github](https://github.com/valeryan/vscode-phpsab)
+  Version: 0.0.11 (2020-08-24)
 - **php cs fixer** by *junstyle*  
   [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer&ssr=false#overview) or [Github](https://github.com/junstyle/vscode-php-cs-fixer)  
   Version: 	0.1.158 (2021-01-19)
