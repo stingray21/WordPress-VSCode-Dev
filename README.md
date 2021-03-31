@@ -189,3 +189,33 @@ There are other popular plugins, but either I could not get them to work or they
 - [Set Up PHP CodeSniffer for Local Development](https://www.twilio.com/blog/set-up-php-codesniffer-local-development-sublime-text-php-storm-vs-code) by  Michael Okoko (2020-01-10)
 
 - [WordPress PHP CodeSniffer for your favorite editor](https://luminfire.com/2017/03/01/wordpress-php-codesniffer-favorite-editor/) by Marty Kokes, Michael Moore & Nick Ciske (2017-03-01)
+
+- [Set up PHPCS and WordPress-Extra coding standards, and configure your IDEs to use them](https://javorszky.co.uk/2018/07/30/set-up-phpcs-and-wordpress-extra-coding-standards-and-configure-your-ides-to-use-them/) by Gabor Javorszky (2018-07-30) 
+
+
+- [How to Install and Use Composer](https://www.hostinger.com/tutorials/how-to-install-composer) by Domantas G (2021-03-09)
+
+## VS Code Extensions
+
+- [PHP Essentials](https://marketplace.visualstudio.com/items?itemName=dudemelo.php-essentials)  
+  (on [Github](https://github.com/dudemelo/vscode-php-essentials))
+
+- [PHP Sniffer](https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer)  
+  (on [Github](https://github.com/wongjn/vscode-php-sniffer))
+
+
+
+## Other resources
+
+### Boilerplate - Plugins
+- WordPress Plugin Boilerplate [wppb.io](https://wppb.io/)  
+  (on [Github](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate))
+
+### Boilerplate - Themes
+- https://barebones.dev/get-started/  
+  (on [Github](https://github.com/benchmarkstudios/barebones)
+- http://tidythemes.com/  
+  https://wordpress.org/themes/blankslate/  
+  (on [Github](https://github.com/tidythemes/blankslate)
+- https://underscores.me/  
+  (on [Github](https://github.com/automattic/_s)
