@@ -106,6 +106,12 @@ end_of_line = crlf
 [Source](https://github.com/WordPress/wordpress-develop/blob/master/.editorconfig) (or maybe [here](https://core.trac.wordpress.org/browser/trunk/.editorconfig))
 
 
+#### VS Code Plugins
+
+- **EditorConfig for VS Code** by *EditorConfig*  
+  [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) or  [Github](https://github.com/editorconfig/editorconfig-vscode)  
+  Version:  	0.16.4 (2020-07-12)
+
 ## PHP CodeSniffer
 
 [Github](https://github.com/squizlabs/PHP_CodeSniffer)
