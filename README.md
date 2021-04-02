@@ -137,7 +137,9 @@ Instead of downgrading to PHP7, this seems to work. But it might cause any kinds
 Replacing the content of the local `ControlStructureSpacingSniff.php` file  
 (*in `/WordPress/Sniffs/WhiteSpace/` of the cloned repo or the vendor folder of the composer installation*) with the [one](https://raw.githubusercontent.com/WordPress/WordPress-Coding-Standards/develop/WordPress/Sniffs/WhiteSpace/ControlStructureSpacingSniff.php) from the `develop` branch
 
+### custom set of rules
 
+https://github.com/WordPress/WordPress-Coding-Standards/blob/develop/phpcs.xml.dist.sample
 
 ### Troubleshooting
 
@@ -166,20 +168,9 @@ Settings in `settings.json`
 }
 ```
 
-This plugin works for me without many issues.
-There are other popular plugins, but either I could not get them to work or they have not been updated in a while.
+This VS Code plugin works for me. There are other popular plugins, but either I could not get them to work or they have not been updated in a while.  
+(see section: *Other VS Code Extensions*)
 
-- [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs&ssr=false#review-details) by *Ioannis Kappas* 
-  ([Github](https://github.com/ikappas/vscode-phpcs))  
-  Version: 1.0.5 (2018-03-01)
-- [PHP Sniffer & Beautifier](https://marketplace.visualstudio.com/items?itemName=ValeryanM.vscode-phpsab) by *Samuel Hilson* 
-  ([Github](https://github.com/valeryan/vscode-phpsab))  
-  Version: 0.0.11 (2020-08-24)
-- [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer&ssr=false#overview)  by *junstyle* 
-  ([Github](https://github.com/junstyle/vscode-php-cs-fixer))  
-  Version: 	0.1.158 (2021-01-19)
-- [PHP Sniffer](https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer) 
-  ([Github](https://github.com/wongjn/vscode-php-sniffer))
 
 ## Other Tutorials
 
@@ -227,8 +218,23 @@ There are other popular plugins, but either I could not get them to work or they
   [Github](https://github.com/htintrinh/php-refactor-vscode)  
   Version: 0.0.7 (2019-09-16)
 
+- [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs&ssr=false#review-details) by *Ioannis Kappas* 
+  ([Github](https://github.com/ikappas/vscode-phpcs))  
+  Version: 1.0.5 (2018-03-01)
+- [PHP Sniffer & Beautifier](https://marketplace.visualstudio.com/items?itemName=ValeryanM.vscode-phpsab) by *Samuel Hilson* 
+  ([Github](https://github.com/valeryan/vscode-phpsab))  
+  Version: 0.0.11 (2020-08-24)
+- [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer&ssr=false#overview)  by *junstyle* 
+  ([Github](https://github.com/junstyle/vscode-php-cs-fixer))  
+  Version: 	0.1.158 (2021-01-19)
+- [PHP Sniffer](https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer) 
+  ([Github](https://github.com/wongjn/vscode-php-sniffer))
 
 ## Other resources
+
+### Developer Tools
+
+- [WP Plugin Handbook - Developer Tools](https://developer.wordpress.org/plugins/developer-tools/)
 
 ### Boilerplate - Plugins
 - WordPress Plugin Boilerplate [wppb.io](https://wppb.io/)  
