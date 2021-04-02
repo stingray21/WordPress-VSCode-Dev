@@ -82,7 +82,7 @@ composer global require dealerdirect/phpcodesniffer-composer-installer
 # editorconfig.org
 
 # WordPress Coding Standards
-# https://make.wordpress.org/core/handbook/coding-standards/
+# https://make.wordpress.org/core/handbook/best-practices/coding-standards/
 
 root = true
 
@@ -93,17 +93,18 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 indent_style = tab
 
-[*.yml]
-indent_style = space
-indent_size = 2
+[*.css]
+indent_style = tab
+indent_size = 4
 
-[*.md]
-trim_trailing_whitespace = false
+[*.scss]
+indent_style = tab
+indent_size = 4
 
-[{*.txt,wp-config-sample.php}]
+[*.txt]
 end_of_line = crlf
 ```
-[Source](https://github.com/WordPress/wordpress-develop/blob/master/.editorconfig) (or maybe [here](https://core.trac.wordpress.org/browser/trunk/.editorconfig))
+[Source](https://github.com/WordPress/twentytwentyone/blob/trunk/.editorconfig) (alternatively [here](https://core.trac.wordpress.org/browser/trunk/.editorconfig) or [here](https://github.com/WordPress/wordpress-develop/blob/master/.editorconfig))
 
 
 #### VS Code Plugins
