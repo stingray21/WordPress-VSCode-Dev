@@ -172,6 +172,34 @@ This VS Code plugin works for me. There are other popular plugins, but either I 
 (see section: *Other VS Code Extensions*)
 
 
+## ESLint - Javascript
+
+Doc: [eslint.org](https://eslint.org/docs/user-guide/getting-started)
+
+Local Installation
+```
+npm install --save-dev eslint
+```
+
+Install rule set to extend [ESLint Plugin](https://www.npmjs.com/package/@wordpress/eslint-plugin)
+
+```
+npm install --save-dev @wordpress/eslint-plugin 
+```
+
+[.eslintignore](https://github.com/WordPress/twentytwentyone/blob/trunk/.eslintignore)
+
+
+[.eslintrc](https://github.com/WordPress/twentytwentyone/blob/trunk/.eslintrc)
+
+
+VS Code plugin
+
+- [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  by *Dirk Baeumer* 
+  ([Github](https://github.com/Microsoft/vscode-eslint))  
+  Version: 	2.1.19 (2021-03-15)
+
+
 ## Other Tutorials
 
 - [Setting Up PHP CodeSniffer in Visual Studio Code](https://tommcfarlin.com/php-codesniffer-in-visual-studio-code/) by Tom McFarlin (2020)
@@ -221,12 +249,15 @@ This VS Code plugin works for me. There are other popular plugins, but either I 
 - [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs&ssr=false#review-details) by *Ioannis Kappas* 
   ([Github](https://github.com/ikappas/vscode-phpcs))  
   Version: 1.0.5 (2018-03-01)
+
 - [PHP Sniffer & Beautifier](https://marketplace.visualstudio.com/items?itemName=ValeryanM.vscode-phpsab) by *Samuel Hilson* 
   ([Github](https://github.com/valeryan/vscode-phpsab))  
   Version: 0.0.11 (2020-08-24)
+
 - [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer&ssr=false#overview)  by *junstyle* 
   ([Github](https://github.com/junstyle/vscode-php-cs-fixer))  
   Version: 	0.1.158 (2021-01-19)
+
 - [PHP Sniffer](https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer) 
   ([Github](https://github.com/wongjn/vscode-php-sniffer))
 
