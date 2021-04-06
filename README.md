@@ -200,6 +200,23 @@ VS Code plugin
   Version: 	2.1.19 (2021-03-15)
 
 
+## Browserlist
+
+[npm](https://www.npmjs.com/package/@wordpress/browserslist-config)
+
+```shell
+npm install --save-dev browserslist @wordpress/browserslist-config
+```
+
+Add this to `package.json`:
+
+```json
+"browserslist": [
+	"extends @wordpress/browserslist-config"
+]
+```
+
+
 ## Other Tutorials
 
 - [Setting Up PHP CodeSniffer in Visual Studio Code](https://tommcfarlin.com/php-codesniffer-in-visual-studio-code/) by Tom McFarlin (2020)
