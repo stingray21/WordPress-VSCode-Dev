@@ -172,18 +172,18 @@ This VS Code plugin works for me. There are other popular plugins, but either I 
 (see section: *Other VS Code Extensions*)
 
 
-## ESLint - Javascript
+## ESLint with Prettier - Javascript
 
 Doc: [eslint.org](https://eslint.org/docs/user-guide/getting-started)
 
 Local Installation
-```
+```shell
 npm install --save-dev eslint
 ```
 
 Install rule set to extend [ESLint Plugin](https://www.npmjs.com/package/@wordpress/eslint-plugin)
 
-```
+```shell
 npm install --save-dev @wordpress/eslint-plugin 
 ```
 
@@ -192,13 +192,33 @@ npm install --save-dev @wordpress/eslint-plugin
 
 [.eslintrc](https://github.com/WordPress/twentytwentyone/blob/trunk/.eslintrc)
 
+### Prettier (necessary?)
 
-VS Code plugin
+```shell
+npm install --save-dev prettier eslint-plugin-prettier eslint-config-prettier 
+```
+
+### VS Code plugin
 
 - [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  by *Dirk Baeumer* 
   ([Github](https://github.com/Microsoft/vscode-eslint))  
   Version: 	2.1.19 (2021-03-15)
 
+
+### Use ES6
+
+Add this to VSC `settings.json`:
+```json
+"eslint.options": {
+    "env":{
+        "es6":true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6 // or 7,8,9
+    }
+}
+```
+[Source](https://stackoverflow.com/a/48848631/1786528)
 
 ## Browserlist
 
@@ -216,6 +236,11 @@ Add this to `package.json`:
 ]
 ```
 
+Alternatively, use `.browserslistrc` file with:
+
+```json
+extends @wordpress/browserslist-config
+```
 
 ## Other Tutorials
 
