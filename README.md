@@ -204,18 +204,6 @@ npm install --save-dev prettier eslint-plugin-prettier eslint-config-prettier
   ([Github](https://github.com/Microsoft/vscode-eslint))  
   Version: 	2.1.19 (2021-03-15)
 
-Add this to VSC `settings.json`:
-```json
-"editor.formatOnSave": true,
-"[javascript]": {
-  "editor.formatOnSave": false
-},
-"eslint.alwaysShowStatus": true,
-"editor.codeActionsOnSave": {
-  "source.fixAll": true
-}
-```
-[Source](https://github.com/wesbos/eslint-config-wesbos)
 
 ## Browserlist
 
