@@ -187,10 +187,10 @@ Install rule set to extend [ESLint Plugin](https://www.npmjs.com/package/@wordpr
 npm install --save-dev @wordpress/eslint-plugin 
 ```
 
-[.eslintignore](https://github.com/WordPress/twentytwentyone/blob/trunk/.eslintignore)
+Example: [.eslintignore](https://github.com/WordPress/twentytwentyone/blob/trunk/.eslintignore) for TwentyTwentyOne Theme
 
 
-[.eslintrc](https://github.com/WordPress/twentytwentyone/blob/trunk/.eslintrc)
+Example: [.eslintrc](https://github.com/WordPress/twentytwentyone/blob/trunk/.eslintrc) for TwentyTwentyOne Theme
 
 ### Prettier (necessary?)
 
@@ -198,12 +198,74 @@ npm install --save-dev @wordpress/eslint-plugin
 npm install --save-dev prettier eslint-plugin-prettier eslint-config-prettier 
 ```
 
-### VS Code plugin
+### VS Code Extension
 
 - [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  by *Dirk Baeumer* 
   ([Github](https://github.com/Microsoft/vscode-eslint))  
   Version: 	2.1.19 (2021-03-15)
 
+
+## Stylelint - CSS & Sass
+
+https://stylelint.io/
+
+[stylelint on npm](https://www.npmjs.com/package/stylelint) 
+
+```shell
+npm install --save-dev stylelint stylelint-scss
+```
+
+
+```shell
+npm install --save-dev @wordpress/stylelint-config 
+```
+
+Add to `.stylelinrc`:
+```json
+{
+	"extends": [
+		"@wordpress/stylelint-config"
+	],
+	"rules": {
+		
+	}
+}
+```
+
+For Sass: 
+```json
+{
+	"extends": [
+		"@wordpress/stylelint-config/scss"
+	],
+	"rules": {
+		
+	}
+}
+```
+Example: [.stylelintrc](https://github.com/WordPress/twentytwentyone/blob/trunk/.stylelintrc.json) for TwentyTwentyOne Theme
+
+`.stylelinignore`:
+```json
+vendor/
+node_modules/
+*.php
+*.map
+*.png
+*.json
+LICENSE
+composer.lock
+*.txt
+```
+Example: [.stylelintignore](https://github.com/WordPress/twentytwentyone/blob/trunk/.stylelintignore) for TwentyTwentyOne Theme
+
+
+### VS Code Extension
+
+
+- [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) by *stylelint*  
+  ([Github](https://github.com/stylelint/vscode-stylelint))  
+  Version: 0.86.0 (2021-02-07)
 
 ## Browserlist
 
