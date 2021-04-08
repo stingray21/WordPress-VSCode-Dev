@@ -141,6 +141,15 @@ Replacing the content of the local `ControlStructureSpacingSniff.php` file
 
 https://github.com/WordPress/WordPress-Coding-Standards/blob/develop/phpcs.xml.dist.sample
 
+
+### For Themes
+
+```shell
+composer global require --dev wptrt/wpthemereview
+```
+
+https://github.com/WPTT/WPThemeReview
+
 ### Troubleshooting
 
 * Error: PHP 8 will throw and (uncaught) `TypeError: vsprintf(): Argument #2 ($args) must be of type array, string given`
@@ -152,21 +161,28 @@ https://github.com/WordPress/WordPress-Coding-Standards/blob/develop/phpcs.xml.d
 
 	Will (hopefully) be fixed soon ([see](https://github.com/WordPress/WordPress-Coding-Standards/commit/7cd46bed1e6a7a2af3fe24c7f4a044da3076d8f4))
 
+* Conflicts with VSC Plugin [Format HTML in PHP](https://marketplace.visualstudio.com/items?itemName=rifi2k.format-html-in-php)
+
+
 
 ### Plugin for VS Code
 
-[PHP Sniffer](https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer&ssr=false#overview) by *wongjn* ([Github](https://github.com/wongjn/vscode-php-sniffer))  
-Version: 1.3.0 (2020-11-14)
+[PHP Sniffer & Beautifier](https://marketplace.visualstudio.com/items?itemName=ValeryanM.vscode-phpsab) by *Samuel Hilson* 
+  ([Github](https://github.com/valeryan/vscode-phpsab))  
+  Version: 0.0.11 (2020-08-24)
 
 Settings in `settings.json`
 ```json
-{
-	"phpSniffer.standard": "WordPress",
 	"[php]": {
-		"editor.defaultFormatter": "wongjn.php-sniffer"
-	}
-}
+    "editor.defaultFormatter": "valeryanm.vscode-phpsab"
+	},
 ```
+To make global installation of PHPCS and PHPCBF work:
+```json
+  "phpsab.executablePathCS": "/home/<USER>/.config/composer/vendor/bin/phpcs",
+	"phpsab.executablePathCBF": "/home/<USER>/.config/composer/vendor/bin/phpcbf",
+```
+**replace `<USER>` with username*
 
 This VS Code plugin works for me. There are other popular plugins, but either I could not get them to work or they have not been updated in a while.  
 (see section: *Other VS Code Extensions*)
@@ -263,7 +279,7 @@ Example: [.stylelintignore](https://github.com/WordPress/twentytwentyone/blob/tr
 ### VS Code Extension
 
 
-- [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) by *stylelint*  
+- [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) by *stylelint* 
   ([Github](https://github.com/stylelint/vscode-stylelint))  
   Version: 0.86.0 (2021-02-07)
 
@@ -308,47 +324,44 @@ extends @wordpress/browserslist-config
 
 ## Other VS Code Extensions
 
-- [PHP Essentials](https://marketplace.visualstudio.com/items?itemName=dudemelo.php-essentials)  
-  (on [Github](https://github.com/dudemelo/vscode-php-essentials))
+- [PHP Essentials](https://marketplace.visualstudio.com/items?itemName=dudemelo.php-essentials)
+  ([Github](https://github.com/dudemelo/vscode-php-essentials))  
 
-- [WordPress Hooks IntelliSense](https://marketplace.visualstudio.com/items?itemName=johnbillion.vscode-wordpress-hooks) by *johnbillion*  
-  [Github](https://github.com/johnbillion/vscode-wordpress-hooks)  
+- [WordPress Hooks IntelliSense](https://marketplace.visualstudio.com/items?itemName=johnbillion.vscode-wordpress-hooks) by *johnbillion* 
+  ([Github](https://github.com/johnbillion/vscode-wordpress-hooks))  
   Version: 0.5.4 (2021-03-21)  
 
-- [WPCS Whitelist Flags](https://marketplace.visualstudio.com/items?itemName=claudiosanches.wpcs-whitelist-flags) by *Claudio Sanches*  
-  [Github](https://github.com/claudiosanches/vscode-wpcs-whitelist-flags)  
+- [WPCS Whitelist Flags](https://marketplace.visualstudio.com/items?itemName=claudiosanches.wpcs-whitelist-flags) by *Claudio Sanches* 
+  ([Github](https://github.com/claudiosanches/vscode-wpcs-whitelist-flags))  
   Version: 1.1.0 (2019-07-23)
 
-- [PHP_CodeSniffer](https://marketplace.visualstudio.com/items?itemName=obliviousharmony.vscode-php-codesniffer) by *Christopher Allford*  
-  [Github](https://github.com/ObliviousHarmony/vscode-php-codesniffer)  
+- [PHP_CodeSniffer](https://marketplace.visualstudio.com/items?itemName=obliviousharmony.vscode-php-codesniffer) by *Christopher Allford* 
+  ([Github](https://github.com/ObliviousHarmony/vscode-php-codesniffer))  
   Version: 1.1.0 (2021-03-05)
 
-- [vscode-php-cs-fixer](https://marketplace.visualstudio.com/items?itemName=fterrag.vscode-php-cs-fixer) by *Frank Terragna*  
-  [Github](https://github.com/fterrag/vscode-php-cs-fixer)  
+- [vscode-php-cs-fixer](https://marketplace.visualstudio.com/items?itemName=fterrag.vscode-php-cs-fixer) by *Frank Terragna* 
+  ([Github](https://github.com/fterrag/vscode-php-cs-fixer))  
   Version:  0.4.0 (2020-08-23)
 
-- [PHP Companion](https://marketplace.visualstudio.com/items?itemName=blanc-frederic.vs-phpcompanion) by *Fred Blanc*  
-  [Github](https://github.com/blanc-frederic/vs-phpcompanion)  
+- [PHP Companion](https://marketplace.visualstudio.com/items?itemName=blanc-frederic.vs-phpcompanion) by *Fred Blanc* 
+  ([Github](https://github.com/blanc-frederic/vs-phpcompanion))  
   Version: 2.1.0 (2021-03-11)
 
-- [PHP Refactor](https://marketplace.visualstudio.com/items?itemName=tintrinh.php-refactor) by *Tin Trinh*  
-  [Github](https://github.com/htintrinh/php-refactor-vscode)  
+- [PHP Refactor](https://marketplace.visualstudio.com/items?itemName=tintrinh.php-refactor) by *Tin Trinh* 
+  ([Github](https://github.com/htintrinh/php-refactor-vscode))  
   Version: 0.0.7 (2019-09-16)
 
 - [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs&ssr=false#review-details) by *Ioannis Kappas* 
   ([Github](https://github.com/ikappas/vscode-phpcs))  
   Version: 1.0.5 (2018-03-01)
 
-- [PHP Sniffer & Beautifier](https://marketplace.visualstudio.com/items?itemName=ValeryanM.vscode-phpsab) by *Samuel Hilson* 
-  ([Github](https://github.com/valeryan/vscode-phpsab))  
-  Version: 0.0.11 (2020-08-24)
-
+- [PHP Sniffer](https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer&ssr=false#overview) by *wongjn* 
+  ([Github](https://github.com/wongjn/vscode-php-sniffer))  
+  Version: 1.3.0 (2020-11-14)
 - [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer&ssr=false#overview)  by *junstyle* 
   ([Github](https://github.com/junstyle/vscode-php-cs-fixer))  
   Version: 	0.1.158 (2021-01-19)
 
-- [PHP Sniffer](https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer) 
-  ([Github](https://github.com/wongjn/vscode-php-sniffer))
 
 ## Other resources
 
