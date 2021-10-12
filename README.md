@@ -44,6 +44,17 @@ define( 'WP_DEBUG_DISPLAY', true );
 
 ## Coding Standard 
 
+### Install phpcs
+
+**Add to path**
+
+Add PATH to `.zshrc` or `.bash_profile` 
+(check with `which phpcs`)
+```
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+```
+
+[Ref](https://javorszky.co.uk/2018/07/30/set-up-phpcs-and-wordpress-extra-coding-standards-and-configure-your-ides-to-use-them/)
 
 [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/)
 
@@ -135,7 +146,7 @@ It's therefore recommended to use PHP 7.4 instead.
 Instead of downgrading to PHP7, this seems to work. But it might cause any kinds of issues, so **use it at you own risk**.
 
 Replacing the content of the local `ControlStructureSpacingSniff.php` file  
-(*in `/WordPress/Sniffs/WhiteSpace/` of the cloned repo or the vendor folder of the composer installation*) with the [one](https://raw.githubusercontent.com/WordPress/WordPress-Coding-Standards/develop/WordPress/Sniffs/WhiteSpace/ControlStructureSpacingSniff.php) from the `develop` branch
+(*in `/WordPress/Sniffs/WhiteSpace/` of the cloned repo or the vendor folder of the composer installation*) with the [one](https://github.com/WordPress/WordPress-Coding-Standards/blob/7cd46bed1e6a7a2af3fe24c7f4a044da3076d8f4/WordPress/Sniffs/WhiteSpace/ControlStructureSpacingSniff.php) from the `develop` branch
 
 ### custom set of rules
 
@@ -220,6 +231,10 @@ npm install --save-dev prettier eslint-plugin-prettier eslint-config-prettier
   ([Github](https://github.com/Microsoft/vscode-eslint))  
   Version: 	2.1.19 (2021-03-15)
 
+Settings
+```json
+"eslint.alwaysShowStatus": true,
+```
 
 ## Stylelint - CSS & Sass
 
